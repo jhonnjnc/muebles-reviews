@@ -1,7 +1,8 @@
 {
   "name": "Next.js 15+ Hexagonal Architecture",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile",
+    "options": ["--load"]
   },
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
